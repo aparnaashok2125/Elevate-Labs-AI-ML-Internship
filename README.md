@@ -1,4 +1,4 @@
-# Red Wine Quality Prediction TASK 1&2
+# TASK 1&2- Red Wine Quality Prediction
 
 This data science project aims to predict the quality of red variants of the Portuguese "Vinho Verde" wine. The dataset consists of physicochemical (input) and sensory (output) variables, with no information about grape types, wine brand, or selling price due to privacy and logistic constraints.
 
@@ -21,7 +21,7 @@ The dataset used in this project is sourced from the UCI Machine Learning Reposi
 1. Quality (score between 0 and 10)
 For further insights and analysis, refer to the research paper by Cortez et al. (2009). This project aims to leverage machine learning techniques to build a predictive model that can estimate the quality of red wines based on their physicochemical properties and sensory attributes.
 
-# House Price Prediction - TASK 3
+# TASK 3-House Price Prediction 
 ![](https://nycdsa-blog-files.s3.us-east-2.amazonaws.com/2021/03/chaitali-majumder/house-price-497112-KhCJQICS.jpg)
 This data science project focuses on predicting house prices using a dataset containing various features and attributes related to residential properties. By analyzing and modeling the data, the project aims to develop a predictive model that can estimate the sale prices of houses accurately.
 ## Dataset Information
@@ -35,7 +35,7 @@ Accurate house price prediction can have significant implications for various st
 
 Through this project, insights and patterns in the housing market can be uncovered, allowing for a better understanding of the factors influencing house prices and facilitating more informed decision-making in the real estate industry.
 
-# Breast Cancer Prediction- TASK 4
+# TASK 4-Breast Cancer Prediction
 **Breast Cancer Prediction** is a classification task aimed at predicting the diagnosis of a breast mass as either malignant or benign. The dataset used for this prediction consists of features computed from a digitized image of a fine needle aspirate (FNA) of the breast mass. These features describe various characteristics of the cell nuclei present in the image.
 
 The dataset contains the following information for each instance:
@@ -57,5 +57,29 @@ For each cell nucleus, ten real-valued features are computed, which are:
 10. Fractal dimension: This feature approximates the "coastline" of the nucleus, using the concept of fractal geometry.
 
 These features provide quantitative measurements that can be used to assess the characteristics of cell nuclei and aid in distinguishing between malignant and benign breast masses. By training a machine learning model on this dataset, it is possible to develop a predictive model that can assist in the early detection and diagnosis of breast cancer.
+
+# TASK 5- Heart Stroke Prediction
+![](https://dezyre.gumlet.io/images/blog/heart-disease-prediction-using-machine-learning-project/Heart_Disease_Prediction_using_Machine_Learning.png?w=330&dpr=2.6)
+
+This data science project aims to predict the likelihood of a patient experiencing a stroke based on various input parameters such as gender, age, presence of diseases, and smoking status. The dataset provides relevant information about each patient, enabling the development of a predictive model.
+## Dataset Information
+The dataset used in this project contains information necessary to predict the occurrence of a stroke. Each row in the dataset represents a patient, and the dataset includes the following attributes:
+1. id: Unique identifier
+2. gender: "Male", "Female", or "Other"
+3. age: Age of the patient
+4. hypertension: 0 if the patient doesn't have hypertension, 1 if the patient has hypertension
+5. heart_disease: 0 if the patient doesn't have any heart diseases, 1 if the patient has a heart disease
+6. ever_married: "No" or "Yes"
+7. work_type: "Children", "Govt_job", "Never_worked", "Private", or "Self-employed"
+8. Residence_type: "Rural" or "Urban"
+9. avg_glucose_level: Average glucose level in the blood
+10. bmi: Body mass index
+11. smoking_status: "Formerly smoked", "Never smoked", "Smokes", or "Unknown"
+12. stroke: 1 if the patient had a stroke, 0 if not
+## Context
+According to the World Health Organization (WHO), stroke is the second leading cause of death worldwide, responsible for approximately 11% of total deaths. This project aims to leverage machine learning techniques to build a predictive model that can identify individuals at risk of stroke based on their demographic and health-related features. By detecting high-risk individuals early, appropriate preventive measures can be taken to reduce the incidence and impact of stroke.
+
+To enhance the accuracy of the stroke prediction model, the dataset will be analyzed and processed using various data science methodologies and algorithms.
+
 
 
