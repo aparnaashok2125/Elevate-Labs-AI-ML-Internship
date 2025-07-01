@@ -81,5 +81,43 @@ According to the World Health Organization (WHO), stroke is the second leading c
 
 To enhance the accuracy of the stroke prediction model, the dataset will be analyzed and processed using various data science methodologies and algorithms.
 
+## TASK 6- KNN Classification using Iris Dataset
+
+📌 Objective
+
+Implement and understand the K-Nearest Neighbors (KNN) algorithm for classification using the Iris dataset.
+
+🛠 Tools and Libraries Used
+
+Python
+Pandas
+NumPy
+Matplotlib
+Scikit-learn
+
+📁 Dataset
+
+The dataset used is the Iris flower dataset from Kaggle. It contains 150 samples of iris flowers categorized into three species: Setosa, Versicolor, and Virginica.
+
+🔍 Steps Performed
+
+Data Loading: Loaded Iris.csv and removed unnecessary columns like Id.
+Label Encoding: Converted categorical species labels to numerical format using LabelEncoder.
+Feature Scaling: Standardized the feature values using StandardScaler.
+Train-Test Split: Split the data into training and test sets (80/20).
+Model Building: Used KNeighborsClassifier from scikit-learn to train models with different values of K.
+Evaluation: Calculated accuracy and plotted confusion matrices for each value of K.
+Visualization: Plotted decision boundaries using two selected features to visually understand how the KNN algorithm classifies data points.
+
+📊 Results
+
+Tested the model with K values: 1, 3, 5, and 7.
+Best performance observed around K=3 with high accuracy.
+Confusion matrices clearly indicate the model’s classification effectiveness.
+
+📌 Conclusion
+
+KNN is a simple yet effective classification algorithm when applied to normalized data. It performs well on the Iris dataset and provides intuitive decision boundaries when visualized in 2D.
+
 
 
