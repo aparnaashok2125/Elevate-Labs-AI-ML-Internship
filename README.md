@@ -119,7 +119,7 @@ Confusion matrices clearly indicate the model’s classification effectiveness.
 
 KNN is a simple yet effective classification algorithm when applied to normalized data. It performs well on the Iris dataset and provides intuitive decision boundaries when visualized in 2D.
 
-TASK 7 - Support Vector Machines on the Breast Cancer Wisconsin (Diagnostic) Data Set
+# TASK 7 - Support Vector Machines on the Breast Cancer Wisconsin (Diagnostic) Data Set
 
 ![](nucleus_cover_image.jpg)
 
