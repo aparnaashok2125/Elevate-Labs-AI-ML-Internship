@@ -140,6 +140,22 @@ Mall Customer Segmentation using K-Means Algorithm
 
 ![image](https://user-images.githubusercontent.com/69152112/221351922-d0352643-c1d6-4a9f-a433-594f5b2be9a8.png)
 
+Customer segmentation is the method of distributing a customer base into collections of people based on mutual characteristics so organizations can market to group efficiently and competently individually.
+
+The purpose of segmenting customers is to determine how to correlate to customers in multiple segments to maximize customer benefits. Perfectly done customer segmentation empowers marketers to interact with every customer in the best efficient approach.
+
+The data includes the following features:
+
+Customer ID
+
+Customer Gender
+
+Customer Age
+
+Annual Income of the customer (in Thousand Dollars)
+
+Spending score of the customer (based on customer behaviour and spending nature)
+
 
 
 
