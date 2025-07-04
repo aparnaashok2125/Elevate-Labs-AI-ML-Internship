@@ -119,5 +119,21 @@ Confusion matrices clearly indicate the model’s classification effectiveness.
 
 KNN is a simple yet effective classification algorithm when applied to normalized data. It performs well on the Iris dataset and provides intuitive decision boundaries when visualized in 2D.
 
+TASK 7 - Support Vector Machines on the Breast Cancer Wisconsin (Diagnostic) Data Set
+
+![](nucleus_cover_image.jpg)
+
+**Goal**: Predict breast cancer given all other values with the use of SVMs. <br>
+**Approach**:
+<ol>
+    <li>Supervised Learning task, because given labeled traning examples.</li>
+    <li>Classification task.</li>
+    <li>There is no continuous flow of data, no need to adjust to changing data, and the data is small enough to fit in memmory: Batch Learning</li>
+</ol>
+
+**Data:** [Breast Cancer Wisconsin (Diagnostic) Data Set | Kaggle](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/version/2#)<br>
+
+SVM's goal is to have largest possible margin between decision boundary that separetes the classes and the training instances.
+
 
 
